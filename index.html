@@ -8,22 +8,290 @@
     <meta name="robots" content="index,follow">
     <link rel="stylesheet" href="./css/style.css">
     <title>PPD</title>
+    <!--https://tinypng.com/   https://www.verexif.com/en/
+    https://www.pexels.com/es-es/
+    -->
 </head>
 <body>
     <header>
-        <nav><ul>
-            <li><a href="#">Inicio</a></li>
-        </ul></nav>
+        <nav>
+            <ul>
+
+                <li>
+
+                    <a href="./index.html" target="_parent">
+                    Inicio
+                    </a>
+
+                </li>
+                <li>
+
+                    <a href="./somos.html" target="_parent">
+                    ¿Quienes Somos?
+                 </a>
+
+                </li>
+
+                <li>
+
+                    <a href="./hacemos.html" target="_parent">
+                    ¿Que Hacemos?
+                    </a>
+
+                    <form action="">
+
+                        <label for="nombre">
+
+                            <span>
+                                Nombre:
+                            </span>
+
+                            <input type="text" id="nombre" placeholder="Your name">
+
+                        </label>
+
+                        <label for="inicio-clases">
+                            
+                            <span>
+                                Dia de inicio de clases:
+                            </span>
+
+                            <input type="date" id="inicio-clases">
+
+                        </label>
+
+                        <label for="horario">
+
+                            <span>
+                                ¿Cual es tu horario?:
+                            </span>
+
+                            <input type="time" id="horario">
+
+                        </label>
+                    </form>
+                    
+
+                </li>
+
+            </ul>
+        </nav>
     </header>
+
     <main>
+
+        <input type="submit" value="Hola">
+
+        <button type="submit">Enviar</button>
+
+        <input list="cursos">
+        <datalist id="cursos">
+
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="WebStandards"></option>
+
+        </datalist>
+
+        <select name="cursos" id="">
+
+            <option value="">
+
+                JavaScript
+
+            </option>
+
+            <option value="">
+
+                HTML5
+
+            </option>
+
+            <option value="">
+
+                CSS3
+
+            </option>
+
+            <option value="">
+
+                Web Standards
+
+            </option>
+
+        </select>
+
         <section>
+
+            <form action="">
+
+                <label for="nombre">
+
+                    <span>Nombre</span>
+                    <input type="text" name="nombre"  id="nombre" autocomplete="name" required>
+                    <span>Color</span>
+                    <input type="color" name="color"  id="color" autocomplete="color" required>
+                    <span>Archivo</span>
+                    <input type="file" name="archivo"  id="archivo" required>
+                    <span>Contraseña</span>
+                    <input type="password" name="Contraseña"  id="Contraseña" autocomplete="password" required>
+
+                </label>
+
+            </form>
+
+        </section>
+
+        <section>
+
+            <form action="">
+
+                <label for="correo">
+
+                    <span>Correo</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" required>
+
+                    <span>Radio</span>
+                    <input type="radio" name="radio"  id="radio">
+
+                </label>
+
+            </form>
+
+        </section>
+
+        <section>
+
+            <form action="">
+
+                <label for="pais">
+
+                    <span>Pais</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country" required>
+
+                </label>
+
+            </form>
+
+        </section>
+
+        <section>
+
+            <form action="">
+
+                <label for="cp">
+
+                    <span>Codigo Postal</span>
+                    <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+
+                </label>
+
+            </form>
+
+        </section>
+
+        <section>
+            
+            <form action="">
+
+                <label for="calendario">
+
+                    <span>Calendario</span>
+                    <input type="datetime-local" id="calendario" name="calendario">
+
+                </label>
+
+                <input type="submit">
+
+            </form>
+            
+        </section>
+
+        <section>
+
+            <form action="">
+
+                <label for="hora">
+
+                    <span>
+                        Hora
+                    </span>
+
+                    <input type="time" id="hora" name="hora">
+
+                </label>
+
+                <label for="dia">
+
+                    <span>
+                        Dia
+                    </span>
+
+                    <input type="date" id="dia" name="dia">
+
+                </label>
+                
+                <label for="semana">
+
+                    <span>
+                        Semana
+                    </span>
+
+                    <input type="week" id="semana" name="semana">
+
+                </label>
+
+                <label for="mes">
+
+                    <span>
+                        Mes
+                    </span>
+
+                    <input type="month" id="mes" name="mes">
+
+                </label>
+
+                <input type="submit">
+
+            </form>
+
+        </section>
+
+        <section>
+
             <article>
 
+                <a href="./somos.html" target="_parent">
+
+                    <figure>
+
+                        <img src="./images/small.jpg" alt="Es una imagen de una montaña">
+
+                        <figcaption>
+                        Esta es una imagen de una montaña
+                        </figcaption>
+
+                    </figure>
+
+
+                </a>
+
             </article>
+
         </section>
-        <ul>
-            <li></li>
-        </ul>
+
+        <section>
+
+            <div>
+
+                <video controls preload="auto">
+                    <source src="D:/DescargasWhatsapp/Nuevacarpeta/video.mp4#t=4,12"/>
+                </video>
+
+            </div>
+
+        </section>    
     </main>
     <footer>
 
