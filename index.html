@@ -15,62 +15,29 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="main-nav">
 
-                <li>
+                <li class="main-nav__item">
 
-                    <a href="./index.html" target="_parent">
+                    <a href="./index.html" target="_parent" >
                     Inicio
                     </a>
 
                 </li>
-                <li>
 
-                    <a href="./somos.html" target="_parent">
+                <li class="main-nav__item">
+
+                    <a href="./somos.html" target="_parent" >
                     ¿Quienes Somos?
                  </a>
 
                 </li>
 
-                <li>
+                <li class="main-nav__item">
 
-                    <a href="./hacemos.html" target="_parent">
+                    <a href="./hacemos.html" target="_parent" >
                     ¿Que Hacemos?
                     </a>
-
-                    <form action="">
-
-                        <label for="nombre">
-
-                            <span>
-                                Nombre:
-                            </span>
-
-                            <input type="text" id="nombre" placeholder="Your name">
-
-                        </label>
-
-                        <label for="inicio-clases">
-                            
-                            <span>
-                                Dia de inicio de clases:
-                            </span>
-
-                            <input type="date" id="inicio-clases">
-
-                        </label>
-
-                        <label for="horario">
-
-                            <span>
-                                ¿Cual es tu horario?:
-                            </span>
-
-                            <input type="time" id="horario">
-
-                        </label>
-                    </form>
-                    
 
                 </li>
 
@@ -84,6 +51,40 @@
 
         <button type="submit">Enviar</button>
 
+        
+        <form action="">
+
+            <label for="nombre">
+
+                <span>
+                    Nombre:
+                </span>
+
+                <input type="text" id="nombre" placeholder="Your name">
+
+            </label>
+
+            <label for="inicio-clases">
+                
+                <span>
+                    Dia de inicio de clases:
+                </span>
+
+                <input type="date" id="inicio-clases">
+
+            </label>
+
+            <label for="horario">
+
+                <span>
+                    ¿Cual es tu horario?:
+                </span>
+
+                <input type="time" id="horario">
+
+            </label>
+        </form>
+        
         <input list="cursos">
         <datalist id="cursos">
 
