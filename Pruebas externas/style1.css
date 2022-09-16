@@ -20,7 +20,7 @@ main
 .prueba
 {
     display: flex;
-    -ms-grid-column: auto;
+    grid-template-columns: auto;
     background-color: black;
 }
 
@@ -94,32 +94,38 @@ main
 
 .aside
 {
-
-}
-
-
-.ul-aside
-{
     width: 200px;
     height: 400px;
     background-color: black;
     list-style: none;
     border: 1px solid white;
+    overflow-y: scroll;
+}
+
+
+.ul-aside
+{
+    height: auto;
 }
 
 .aside-list
 {
+    border-radius: 10px;
+    border: 1px solid white;
     padding-top: 9px;
 }
 
 .aside-list a
 {
+    display: flex;
+    justify-content: center;
+    top
     border: 1px solid white;
     font-weight: bold;
     font-style: italic;
     padding-top: 5px;
     font-size: 4rem;
-    color: rgb(15, 15, 136);
+    color: black;
     border-radius: 5px;
     padding: 3px;
     background-color: rgb(218, 218, 33);
@@ -150,6 +156,7 @@ main
 .footer-red
 {
     background-color: black;
+    border: 1px solid white;
 }
 
 .footer-red a
